@@ -1,0 +1,10 @@
+name: poisson-shinylive-app
+title: poisson-shinylive-app
+username: amandashaker
+account: amandashaker
+server: connect.posit.cloud
+hostUrl: https://api.connect.posit.cloud/v1
+appId: 01a0ff1b-570d-90d1-4730-bc2e27cbb6d7
+bundleId:
+url: https://connect.posit.cloud/amandashaker/content/01a0ff1b-570d-90d1-4730-bc2e27cbb6d7
+version: 1
