@@ -18,8 +18,9 @@ jobs:
         with:
           use-public-rspm: true
 
-      - name: Install Shinylive Package
-        run: Rscript -e "install.packages('shinylive')"
+      - name: Install App Dependencies
+        run: |
+          Rscript -e "install.packages(c('shinylive', 'dplyr', 'ggplot2', 'patchwork'))"
 
       - name: Export Shinylive App
         run: Rscript -e "shinylive::export(appdir = '.', destdir = 'site')"
